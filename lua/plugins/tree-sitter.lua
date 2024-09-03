@@ -13,7 +13,7 @@ return{
         require("nvim-treesitter.query_predicates")
       end,
     opts = {
-        ensure_installed = {"lua", "vim", "vimdoc", "javascript", "html", "python", "bash", "regex" },
+        ensure_installed = {"lua", "vim", "vimdoc", "javascript", "html", "python", "bash", "regex", "tsx" },
         sync_install = false,
         highlight = { enable = true },
         indent = { enable = true },  
